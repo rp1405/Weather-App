@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat&family=Pacifico&family=Sacramento&family=Shadows+Into+Light+Two&display=swap');
+.body{
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.heading{
+    font-family: "Pacifico";
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+}
+.box{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    width: 30%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    font-family: "Montserrat";
+    color: rgb(15, 15, 23);
+    font-size: larger;
+}
+.label{
+    position: absolute;
+    top: 11%;
+    margin: 0%;
+}
+.city{
+    position: absolute;
+    top: 10%;
+    margin: 0%;
+    left: 20%;
+    width: 36%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius :40px;
+    /* box-sizing: border-box; */
+    border: none;
+    outline: none;
+    border-color: rgb(15, 15, 23);
+}
+.btn{
+    position: absolute;
+    top: 10%;
+    margin: 0%;
+    left: 68%;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 70%;
+    border-radius:40px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+.nameofcity{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-bottom: 0%;
+    font-family: "Shadows Into Light Two";
+    font-size: 150%;
+    color: white;
+}
+.temperature_value{
+    color: white;
+    font-size: 200%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+    /* background-color: rgb(15, 15, 23);; */
+}
+.sky{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 1em;
+
+}.icon{
+    margin-left: 45%;
+    border-radius: 30%;
+    background-color: black;
+}
